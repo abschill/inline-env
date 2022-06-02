@@ -7,7 +7,7 @@ how to use
 
 
 example args.json
-
+```json
 {
 	"expect": [
 		{
@@ -17,5 +17,6 @@ example args.json
 		}
 	]
 }
-
+```
 the `expect` array defines the options for your desired configuration for the library to be used with.
+You can view more in the [Samples](/.samples/readme.md) directory

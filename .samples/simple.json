@@ -1,0 +1,9 @@
+{
+	"expect": [
+		{
+			"short_char": "i",
+			"long_word": "info",
+			"is_required": false
+		}
+	]
+}
