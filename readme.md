@@ -1,22 +1,18 @@
-simple arg parser for node
-
-how to use
+simple inline arg parser for node
 
 
-`touch args.json`
-
-
-example args.json
-```json
-{
-	"expect": [
-		{
-			"short_char": "i",
-			"long_word": "info",
-			"is_required": false
-		}
-	]
-}
+```cmd
+node index.js foo=bar
 ```
-the `expect` array defines the options for your desired configuration for the library to be used with.
-You can view more in the [Samples](/.samples/readme.md) directory
+
+```js
+import 'argenv';
+console.log(process.env.foo)
+// bar
+```
+or commonjs
+```js
+require('argenv');
+console.log(process.env.foo)
+// bar
+```
