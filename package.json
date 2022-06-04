@@ -1,11 +1,11 @@
 {
-  "name": "argenv",
+  "name": "inline-env",
   "description": "simple inline arg parser for process.env",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
 	  "type": "git",
-	  "url": "git@github.com:abschill/argenv.git"
+	  "url": "https://github.com/abschill/argenv"
   },
   "homepage": "https://github.com/abschill/argenv",
   "author": "abschill",
