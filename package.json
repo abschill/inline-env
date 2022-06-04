@@ -1,13 +1,13 @@
 {
   "name": "inline-env",
   "description": "simple inline arg parser for process.env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": {
 	  "type": "git",
-	  "url": "https://github.com/abschill/argenv"
+	  "url": "https://github.com/abschill/inline-env"
   },
-  "homepage": "https://github.com/abschill/argenv",
+  "homepage": "https://github.com/abschill/inline-env",
   "author": "abschill",
   "license": "MIT"
 }
